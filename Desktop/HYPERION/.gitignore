@@ -1,0 +1,54 @@
+# Node.js dependencies
+node_modules
+/build
+/dist
+.npm
+.angular
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Compiled binary addons
+build/Release
+
+# Optional REPL history
+.node_repl_history
+
+# IDE and OS files
+.DS_Store # macOS
+.idea/ # JetBrains IDEs
+.vscode/ # VS Code (optional, if you want to share specific settings)
+*.suo
+*.user
+*.cas
+*.zone.identifier
+Thumbs.db # Windows
+
+# Build artifacts for client-side (if your client build outputs to a specific directory)
+# e.g., if the client build goes into a 'public' or 'client/build' folder
+# public/
+# client/build/
+
+# MongoDB specific files (if using local database files)
+.mongo/
+*.journal
+*.lock
+*.ns
